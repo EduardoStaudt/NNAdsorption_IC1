@@ -1,0 +1,12 @@
+# Reference environment: Python 3.10 (WSL2 Ubuntu). Two virtual environments:
+#   - "tfenv"  (TensorFlow): training, evaluation, figures, network benchmarks
+#   - "jaxenv" (JAX): recorder (data generation) and GPU solver benchmark
+# The versions below are the ones used in the paper's results.
+numpy==2.2.6
+h5py==3.14.0
+matplotlib==3.10.9
+pandas==2.3.3
+tensorflow==2.21.0
+optuna==4.9.0
+# only for data generation and GPU benchmark (jaxenv):
+jax==0.6.2
