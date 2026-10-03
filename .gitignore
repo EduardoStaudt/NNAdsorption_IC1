@@ -38,6 +38,10 @@ Thumbs.db
 # OUTPUTS / LOGS / TUNING
 ############################################
 outputs/
+network_2x1/saidas/
+network_2x1/dados_brutos/
+network_2x1/derivados/
+network_2x1/dados/cache.npz
 tuning_logs/
 **/tuning_logs/
 **/tuner/
@@ -47,13 +51,6 @@ tuning_logs/
 LATEST.txt
 TREE_clean.txt
 
-# Exceções — arquivos importantes para o artigo
-!outputs/
-!outputs/adsorption/
-!outputs/adsorption/training/
-!outputs/adsorption/training/optuna/
-!outputs/adsorption/training/optuna/subsets/
-!outputs/adsorption/training/optuna/subsets/experiments_log.jsonl
 
 ############################################
 # RESULTADOS DE TREINAMENTOS / PREDIÇÕES

@@ -1,8 +1,0 @@
-{
-  "tag": "20260216_230610",
-  "method": "vali_eps",
-  "split": "test",
-  "model": "C:\\Users\\newst\\OneDrive\\projects\\ProjetoNakajima\\RN_Adsorcao_IC\\models\\nu_uvec\\best_model.keras",
-  "dataset_npz": "C:\\Users\\newst\\OneDrive\\projects\\ProjetoNakajima\\RN_Adsorcao_IC\\models\\nu_uvec\\dataset_split.npz",
-  "eps": 1e-08
-}
